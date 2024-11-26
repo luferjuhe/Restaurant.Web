@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{11B46ACC-5583-44E2-B9E3-5B3359FB7407}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Restaurant.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Restaurant.Web/libman.json">
+    <Files>
+      <File FileName="Restaurant.Web/appsettings.json" Line="1" Column="1" />
+      <File FileName="Restaurant.Web/AutoMapperMappings.cs" Line="1" Column="1" />
+      <File FileName="Restaurant.Web/GlobalUsings.cs" Line="1" Column="1" />
+      <File FileName="Restaurant.Web/libman.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Restaurant.Web" expanded="True">
+            <Node name="Restaurant.Web" expanded="True">
+              <Node name="Services" expanded="True" selected="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

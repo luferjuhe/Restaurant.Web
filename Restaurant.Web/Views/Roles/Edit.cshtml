@@ -1,0 +1,14 @@
+﻿@model RoleViewModel
+
+<div class="container mt-5">
+    <form method="post" asp-action="Edit">
+        <input type="hidden" asp-for="RoleId"/>
+        <div class="row">
+            <div class="col-md-3">
+                <label>Nombre</label>
+                <input asp-for="Name" class="form-control mt-2" />
+            </div>
+        </div>
+        <button class="btn btn-success mt-4" type="submit">Guardar</button>
+    </form>
+</div>

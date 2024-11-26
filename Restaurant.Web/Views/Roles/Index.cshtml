@@ -1,0 +1,26 @@
+﻿@model List<RoleViewModel>
+
+
+<div class="table-responsive">
+    <table class="table">
+        <thead class="thead-primary">
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Fecha Alta</th>
+                <th>Fecha Baja</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var role in Model)
+            {
+                <tr>
+                    <td>@role.RoleId</td>
+                    <td>@role.Name</td>
+                    <td>@role.CreationDate</td>
+                    <td>@role.InactiveDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
