@@ -1,0 +1,22 @@
+﻿.btn-round {
+    width: 30px; /* Ancho del botón */
+    height: 30px; /* Alto del botón (igual que el ancho para un círculo perfecto) */
+    border-radius: 50%; /* Hace que el botón sea redondo */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    display: flex; /* Usamos flexbox para centrar el texto */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger {
+    background-color: red; /* Color de fondo */
+    
+}
+.btn-primary {
+    background-color: #3498db; /* Color de fondo */
+}

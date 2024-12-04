@@ -25,14 +25,21 @@ namespace Restaurant.Web.Controllers
             return View();
         }
 
+        public async Task<IActionResult> LogOut()
+        {
+            await HttpContext.SignOutAsync("Restaurant.Web");
+
+            return RedirectToAction("Login", "Login");
+        }
+
         [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> LogIn(LogInViewModel vm)
         {
 
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 User user = await svc.GetUserByEmail(vm.Email);
                 if (user.InactiveDate != null)
                 {
@@ -46,7 +53,7 @@ namespace Restaurant.Web.Controllers
                 }
 
                 ModelState.AddModelError("", "Usuario o contraseña incorrecta");
-            }
+            //}
 
             return View(vm);
         }

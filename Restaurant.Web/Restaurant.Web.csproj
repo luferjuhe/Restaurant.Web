@@ -42,8 +42,10 @@
     <Folder Include="Views\Users\" />
     <Folder Include="Views\Shared\" />
     <Folder Include="Views\Roles\" />
+    <Folder Include="wwwroot\css\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\css\" />
   </ItemGroup>
 </Project>

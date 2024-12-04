@@ -39,3 +39,8 @@
 /Users/usuario/Projects/Restaurant.Web/Restaurant.Web/obj/Debug/net6.0/Restaurant.Web.pdb
 /Users/usuario/Projects/Restaurant.Web/Restaurant.Web/obj/Debug/net6.0/Restaurant.Web.genruntimeconfig.cache
 /Users/usuario/Projects/Restaurant.Web/Restaurant.Web/obj/Debug/net6.0/ref/Restaurant.Web.dll
+/Users/usuario/Projects/Restaurant.Web/Restaurant.Web/obj/Debug/net6.0/staticwebassets/msbuild.Restaurant.Web.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/usuario/Projects/Restaurant.Web/Restaurant.Web/obj/Debug/net6.0/staticwebassets/msbuild.build.Restaurant.Web.props
+/Users/usuario/Projects/Restaurant.Web/Restaurant.Web/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Restaurant.Web.props
+/Users/usuario/Projects/Restaurant.Web/Restaurant.Web/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Restaurant.Web.props
+/Users/usuario/Projects/Restaurant.Web/Restaurant.Web/obj/Debug/net6.0/staticwebassets.pack.json

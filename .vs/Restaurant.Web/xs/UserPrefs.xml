@@ -1,29 +1,39 @@
 ﻿<Properties StartupConfiguration="{11B46ACC-5583-44E2-B9E3-5B3359FB7407}|Default">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Restaurant.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Restaurant.Web/libman.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Restaurant.Web/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="Restaurant.Web/appsettings.json" Line="1" Column="1" />
-      <File FileName="Restaurant.Web/AutoMapperMappings.cs" Line="1" Column="1" />
-      <File FileName="Restaurant.Web/GlobalUsings.cs" Line="1" Column="1" />
-      <File FileName="Restaurant.Web/libman.json" Line="1" Column="1" />
+      <File FileName="Restaurant.Web/Views/Users/Index.cshtml" Line="28" Column="40" />
+      <File FileName="Restaurant.Web/wwwroot/css/site.css" Line="18" Column="5" />
+      <File FileName="Restaurant.Web/Views/Shared/_Layout.cshtml" Line="10" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Restaurant.Web" expanded="True">
-            <Node name="Restaurant.Web" expanded="True">
-              <Node name="Services" expanded="True" selected="True" />
-              <Node name="Views" expanded="True" />
+            <Node name="Restaurant.Web">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="lib" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

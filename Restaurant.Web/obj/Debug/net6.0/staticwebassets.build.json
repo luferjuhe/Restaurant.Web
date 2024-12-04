@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DInpQLertznWPx/kXOcgnev40uotZa/KO8opEIdUgRg=",
+  "Hash": "ETlY95CGvAAe3TPof75LrFC2T+3R7VsC5PZJxUf4AI4=",
   "Source": "Restaurant.Web",
   "BasePath": "_content/Restaurant.Web",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/usuario/Projects/Restaurant.Web/Restaurant.Web/wwwroot/css/site.css",
+      "SourceId": "Restaurant.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/usuario/Projects/Restaurant.Web/Restaurant.Web/wwwroot/",
+      "BasePath": "_content/Restaurant.Web",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
     {
       "Identity": "/Users/usuario/Projects/Restaurant.Web/Restaurant.Web/wwwroot/lib/bootstrap/css/bootstrap-grid.css",
       "SourceId": "Restaurant.Web",

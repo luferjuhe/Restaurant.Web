@@ -9,6 +9,7 @@
                 <th>Nombre</th>
                 <th>Fecha Alta</th>
                 <th>Fecha Baja</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -19,6 +20,7 @@
                     <td>@role.Name</td>
                     <td>@role.CreationDate</td>
                     <td>@role.InactiveDate</td>
+                    <td><a class="btn btn-info" asp-action="Edit" asp-controller="Roles" asp-route-id="@role.RoleId">Editar</a></td>
                 </tr>
             }
         </tbody>
